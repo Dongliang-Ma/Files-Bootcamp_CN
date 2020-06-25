@@ -1,7 +1,7 @@
 .. _file_analytics_deploy:
 
 ----------------------
-File Analytics: 部署
+File 分析: 部署
 ----------------------
 
 概述
