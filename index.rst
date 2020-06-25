@@ -78,7 +78,7 @@ Files 入门
 - Nutanix Files 实验
     - Files: 创建 SMB 共享
     - Files: 创建 NFS Export
-    - Files: Selective File Blocking
+    - Files: 选择性的文件屏蔽
     - File 分析: Review Initial Scan（查看初始扫描）
     - File 分析: Anomaly Rules（异常规则）
 
@@ -86,7 +86,7 @@ Files 入门
 - 可选实验
     - Files: 部署
     - Files: 扩展集群
-    - File Analytics: 部署
+    - File 分析: 部署
 
 引言
 +++++++++++++
