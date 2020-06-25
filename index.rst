@@ -82,8 +82,6 @@ Files 入门
     - File 分析: Review Initial Scan（查看初始扫描）
     - File 分析: Anomaly Rules（异常规则）
 
-- 可选实验
-    - Peer
 
 - 可选实验
     - Files: 部署
