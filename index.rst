@@ -138,7 +138,7 @@ Nutanix 研讨会是在Nutanix托管POC环境中运行。 将为您的群集提�
      - Nutanix Cluster Virtual IP
    * - 10.21.\ *XYZ*\ .39
      - **PC** VM IP, Prism Central
-   * - 10.21.\ *XYZ*\ .40
+   * - 10.21.\ *XYZ*\ .51
      - **DC** VM IP, NTNXLAB.local Domain Controller
 
 每个群集配置有2个可用于虚拟机的VLAN：
@@ -284,6 +284,6 @@ For RTP:
 Nutanix 版本信息
 ++++++++++++++++++++
 
-- **AHV Version** - AHV 20170830.337
-- **AOS Version** - 5.16.x
-- **PC Version** - 5.16.x
+- **AHV Version** - Bundled AHV
+- **AOS Version** - 5.18.x
+- **PC Version** - 5.18.x
