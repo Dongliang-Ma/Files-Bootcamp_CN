@@ -13,9 +13,10 @@ Files: 部署
 
    .. figure:: images/1.png
 
-   为了节省时间，文件已被上传到您的集群。 文件二进制文件可以直接通过Prism下载，也可以手动上传。
+   文件二进制文件可以直接通过Prism下载，也可以手动上传。
 
-   .. figure:: images/2.png
+   .. figure:: images/2.1.png
+    .. figure:: images/2.2.png
 
    此外，群集的 Data Services IP地址已配置 (10.XX.YY.38)。 在文件群集中，存储通过iSCSI作为卷组提供给Files虚拟机，因此依赖于数据服务IP。
 
@@ -45,7 +46,7 @@ Files: 部署
 
 #. 点击 **Next**.
 
-#. 选择 **Secondary - Managed** VLAN 的 **Client Network**.
+#. 选择 **Primary - Unmanaged** VLAN 的 **Client Network**.
 
     每个Files VM将在客户端网络上使用一个IP。
 
@@ -57,21 +58,21 @@ Files: 部署
 
    .. note::
 
-     由于这是AHV管理的网络，因此不需要配置单个IP。 在ESXi环境中，或使用不受管理的AHV网络，您将指定网络详细信息和可用IP，如下所示。
+     如果在AHV管理的网络，可以自动分配IP,因此不需要配置单个IP。 在ESXi环境中，或使用不受管理的AHV网络，您将指定网络详细信息和可用IP，如下所示。
 
      .. figure:: images/6.png
 
-#. 指定你集群的 **Domain Controller** VM IP (found in :ref:`stagingdetails`) 作为 **DNS Resolver IP** (例如 10.XX.YY.40). 保留默认的 (cluster) NTP 服务器。
+#. 指定你集群的 **Domain Controller** VM IP (found in :ref:`stagingdetails`) 作为 **DNS Resolver IP** (我们的HPOC环境中使用的是 10.XX.YY.51). 保留默认的 (cluster) NTP 服务器。
 
    .. raw:: html
 
-     <strong><font color="red">为了使Files群集成功找到并加入NTNXLAB.local域，将DNS解析服务器IP设置为您的集群的域控制器VM IP是至关重要的。 默认情况下，此字段设置为Nutanix群集配置的主要DNS服务器IP，此值不正确，将不起作用。</font></strong>
+     <strong><font color="red">为了使Files群集成功找到并加入NTNXLAB.local域，将DNS解析服务器IP设置为您的集群的域控制器VM IP是至关重要的。 默认情况下，此字段设置为Nutanix群集配置的主要DNS服务器IP，此值不正确，将不起作用。我们需要将其改成你集群的DNS服务器，10.XX.YY.51</font></strong>
 
    .. figure:: images/7.png
 
 #. 点击 **Next**.
 
-#. 选择 **Primary - Managed** VLAN 用于存储网络。
+#. 选择 **Primary - Unmanaged** VLAN 用于存储网络。
 
    每个Files VM将在存储网络上使用一个IP，另外再为群集增加1个其他IP。
 
