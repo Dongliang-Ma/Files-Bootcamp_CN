@@ -14,8 +14,6 @@ Files: 部署
    .. figure:: images/1.png
 
    文件二进制文件可以直接通过Prism下载，也可以手动上传。
-
-   .. figure:: images/21.png
    
    .. figure:: images/22.png
 
