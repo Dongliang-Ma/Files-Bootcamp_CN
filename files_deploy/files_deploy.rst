@@ -16,7 +16,8 @@ Files: 部署
    文件二进制文件可以直接通过Prism下载，也可以手动上传。
 
    .. figure:: images/2.1.png
-    .. figure:: images/2.2.png
+   
+   .. figure:: images/2.2.png
 
    此外，群集的 Data Services IP地址已配置 (10.XX.YY.38)。 在文件群集中，存储通过iSCSI作为卷组提供给Files虚拟机，因此依赖于数据服务IP。
 
