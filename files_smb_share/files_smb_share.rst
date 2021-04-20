@@ -72,7 +72,7 @@ Files: 创建 SMB 共享
 
     工具虚拟机已加入** NTNXLAB.local **域。 您可以使用任何加入域的VM来完成以下步骤。
 
-#. 在 **File Explorer** 中打开 ``\\BootcampFS.ntnxlab.local\`` .
+#. 在 **File Explorer** 中打开 ``\\xyz-files.ntnxlab.local\`` .
 
    .. figure:: images/17.png
 
@@ -89,7 +89,7 @@ Files: 创建 SMB 共享
 
    .. figure:: images/19.png
 
-#. 选择 **Users (BootcampFS\\Users)** 然后单击 **Remove**.
+#. 选择 **Users (xyz-files\\Users)** 然后单击 **Remove**.
 
 #. 点击 **Add**.
 
