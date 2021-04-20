@@ -66,9 +66,9 @@ Files 入门
 ++++++++++
 
 - Workshop 更新了以下软件版本:
-    - AOS & PC 5.11.2.x
-    - Files 3.6.1.2
-    - File Analytics 2.1.0
+    - AOS & PC 5.18.1.x
+    - Files 3.8.0.1
+    - File Analytics 3.0.0
 
 - 可选实验室更新:
 
