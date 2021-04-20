@@ -18,10 +18,14 @@ File 分析: 部署
 
 #. 选择 **Deploy**
 
-   为了节省时间，File Analytics 2.0.0包已经上传到您的集群中了。二进制文件可以从Nutanix门户下载并手动上传。
-
+   为了节省时间，File Analytics 3.0.0包已经上传到您的集群中了。二进制文件可以从Nutanix门户下载并手动上传。
+   
+   .. figure:: images/30.png
+   
 #. 上传完成后选择 **Install**
 
+   .. figure:: images/32.png
+   
 #. 填写详细信息
 
    - **Name** - 姓名首字母缩写
@@ -32,19 +36,21 @@ File 分析: 部署
 
 #. 确保将 **DNS Resolver IP** 设置为你的 Active Directory, ntnxlab.local, domain controller/DNS IP address 并且 **仅有** 该地址。
 
+   .. figure:: images/33.png
+
 #. 选择 **Deploy**
 
 #. 您可以从 **Tasks** 页面监视部署。  The Analytics VM 部署大约需要5分钟。
 
 #. 在 **Prism** > **File Server** > 中点击 **File Analytics**
 
-   .. figure:: images/33.png
+   .. figure:: images/34.png
 
 #. 在启用 File Analytics 页面上输入您的域管理员，该域管理员也是您的文件服务器管理员。
 
    - **Username**: administrator
    - **Password**: nutanix/4u
 
-   .. figure:: images/34.png
+   .. figure:: images/35.png
 
 #. 选择 **Enable**
